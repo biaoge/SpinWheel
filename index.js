@@ -16,7 +16,7 @@
     $.fn.spinwheel = function(options, callback){
         
         var params = $.extend({},$.fn.spinwheel.default_options, options), $that = $(this), ctx = null, colorCache = [],
-        startAngle = 0, arc = Math.PI / 6, spinTimeout = null, spinArcStart = 10, spinTime = 0, spinTimeTotal = 0, spinAngleStart = 0, pplArray = params.pplArray, pplLength = pplArray.length;
+        startAngle = 0, arc = Math.PI / 4, spinTimeout = null, spinArcStart = 10, spinTime = 0, spinTimeTotal = 0, spinAngleStart = 0, pplArray = params.pplArray, pplLength = pplArray.length;
 
         if($.isFunction(options)){
             callback = options;
@@ -194,6 +194,6 @@
 
 $(document).ready(function(){
    $('.canvas').spinwheel({
-       pplArray : ["♈", "♉", "♊", "♋","♌", "♍", "♎"]
+       pplArray : ["Mercury", "Roadrunner", "Apex", "Gemini","Wilee", "Primo", "Voyager", "Team_X"]
    });
 });
