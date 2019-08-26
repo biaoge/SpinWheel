@@ -194,6 +194,6 @@
 
 $(document).ready(function(){
    $('.canvas').spinwheel({
-       pplArray : ["Mercury", "Roadrunner", "Apex", "Gemini","Wilee", "Primo", "Voyager", "Team_X"]
+       pplArray : ["Mercury", "Roadrunner", "Apex", "Gemini","Wilee", "Primo", "Voyager", "Meep Meep"]
    });
 });

@@ -1,9 +1,3 @@
-/* #main-content {
-  font-size: 36px;
-  font-weight: bold;
-  padding: 16px;
-} */
-
 #main {
     width:1000px;
 }
@@ -17,6 +11,16 @@
 #right-column {
     float:right;
     width:300px;
+}
+
+.add .spin-trigger {
+    width: 50px;
+    height: 30px;
+    text-align: center
+}
+
+.joiner {
+    height: 30px;
 }
 
 .participants {
